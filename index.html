@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Basics: Tags and Lists</title>
+
+    <style>
+        body {
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .card {
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 15px;
+            background: #fafafa;
+        }
+
+        .card h3 {
+            background: #2f6fa3;
+            color: white;
+            padding: 10px;
+            margin: -15px -15px 15px -15px;
+        }
+
+        .code {
+            background: #eef3f7;
+            padding: 10px;
+            font-family: monospace;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .list-box {
+            display: flex;
+            gap: 15px;
+        }
+
+        .list-card {
+            flex: 1;
+            border: 1px solid #ddd;
+            background: #fafafa;
+            padding: 15px;
+        }
+
+        .list-card h4 {
+            margin-top: 0;
+        }
+
+        .button {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        button {
+            background: #2f6fa3;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>HTML Basics: Tags and Lists</h1>
+    <p class="subtitle">Learn about basic HTML tags and how to create lists on your webpage.</p>
+
+    <div class="row">
+        <div class="card">
+            <h3>HTML Tags</h3>
+            <p>HTML tags are the building blocks of a webpage.</p>
+            <div class="code">&lt;h1&gt;Heading Tag&lt;/h1&gt;</div>
+            <p>Header Tag</p>
+            <div class="code">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+            <p>Paragraph Tag</p>
+        </div>
+
+        <div class="card">
+            <h3>Paragraph Tags</h3>
+            <p>Use the &lt;p&gt; tag to add paragraphs to your content.</p>
+            <div class="code">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+        </div>
+
+        <div class="card">
+            <h3>Lists in HTML</h3>
+            <p>Learn how to create lists in HTML.</p>
+            <ul>
+                <li><a href="lists.html">Ordered Lists</a></li>
+                <li><a href="lists.html">Unordered Lists</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Types of Lists</h2>
+
+        <div class="list-box">
+            <div class="list-card">
+                <h4>Ordered List</h4>
+                <p>An ordered list uses numbers:</p>
+                <div class="code">
+                    &lt;ol&gt;<br>
+                    1. First item<br>
+                    2. Second item<br>
+                    3. Third item<br>
+                    &lt;/ol&gt;
+                </div>
+            </div>
+
+            <div class="list-card">
+                <h4>Unordered List</h4>
+                <p>An unordered list uses bullet points:</p>
+                <div class="code">
+                    &lt;ul&gt;<br>
+                    • Apple<br>
+                    • Banana<br>
+                    • Cherry<br>
+                    &lt;/ul&gt;
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="lists.html"><button>Next: Learn About Lists →</button></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
